@@ -1,0 +1,82 @@
+<!doctype html>
+
+<head>
+  <title>Learning bootstrap</title>
+  <meta charset="utf-8" />
+  <!--  Adding the bootstrap library-->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="portfolio.css" />
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Jquery scripts -->
+
+<script>
+  $(document).ready(function(){
+    $(".portfolio-col").addClass("thumbnail");
+  });
+</script>
+
+</head>
+
+<body>
+  <div class="container-fluid" style="background-color: #bfccb1">
+    <!-- Head of the page -->
+  <h1>Portfolio Page</h1>
+  <!-- We will have a button for navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" name="button">Testing this button</button>
+    </div>
+  </nav>
+  <div id="about-div" class="jumbotron">
+
+    <div class="row" >
+      <div class="col-lg-8">
+          <h2>Self taught computer science student, working on robotics, artificial intellingence and sofware development</h2>
+            <!-- Put this as a seperator  -->
+
+      </div>
+      <div class="col-lg-4">
+      <!-- This is where my image will be   -->
+      <img src="my-picture.jpg" alt="My own Picture" id="my-image" class="img-circle">
+      </div>
+    </div>
+  </div>
+
+  <div id="portfolio-div">
+<!--This is the portfolio section -->
+    <h2 class="text-center" id="portfolio-text"> Porfolio</h2>
+
+<!--Put a few blocks with stuff i've done with links to the code      -->
+    <div class="row">
+      <div class="col-sm-4">
+        <a href="http://www.itandroids.com.br/" target="_blank"><img id="itandroids-logo" src="http://www.itandroids.com.br/media/images/itandroids_logo.png" alt="ITAndrodis image" ></a>
+
+        <h4 class="text-center">ITAndroids Website</h4>
+      </div>
+      <div class="col-sm-4">
+        <h1><a href="https://github.com/fcomuniz/cs50" target="_blank">CS50 Repository</a></h1>
+      </div>
+      <div class="col-sm-4">
+
+      </div>
+    </div>
+  </div>
+
+<div id="contact-div">
+<h1>testing this</h1>
+
+</div>
+
+
+</div>
+
+
+
+</body>

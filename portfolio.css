@@ -1,0 +1,36 @@
+#about-div{
+  background-color: #fc4a1a
+}
+
+/*Portfolio divisons*/
+
+#portfolio-div{
+  background-color: #4abdac;
+}
+#portfolio-text{
+  text-color: white;
+}
+
+/*Defining a class for the porfolio cols images with it's values*/
+
+.portfolio-col{
+
+}
+
+
+
+#itandroids-logo{
+  width: 100%;
+}
+#my-image{
+  width: 100%;
+  height: 80%;
+  border-radius: 60%;
+}
+
+/*Contact division*/
+#contact-div{
+  background-color: #f7b733;
+}
+
+/*About Division*/
